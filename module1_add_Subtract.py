@@ -16,6 +16,8 @@ print("when", num2, "is subtracted from", num1, "you get:", subtract_result)
 num3 = float(input("Enter the third number: "))
 num4 = float(input("Enter the fourth number: "))
 
+
+
 #multiply the two numbers
 multiply_result = num3 * num4
 #divide the two numbers
