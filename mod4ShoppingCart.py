@@ -1,3 +1,4 @@
+#created by Justin Steele
 #creat an itemToPurchase class
 class ItemToPurchase:
     #creat attributes   
@@ -47,7 +48,8 @@ def main():
 
 #add the total cost of the two things together and print it out
     completeTotalCost = (thing1.itemPrice * thing1.itemQuantity) + (thing2.itemPrice * thing2.itemQuantity)
-    print(f"The total cost of the two things is: ${completeTotalCost}")  
+    print(f"The total cost of the two things is: ${completeTotalCost}\n")  
+
 
 #call main function
 main()
