@@ -45,6 +45,10 @@ def main():
     thing2.printItemCost()
     print("\n")
 
+#add the total cost of the two things together and print it out
+    completeTotalCost = (thing1.itemPrice * thing1.itemQuantity) + (thing2.itemPrice * thing2.itemQuantity)
+    print(f"The total cost of the two things is: ${completeTotalCost}")  
+
 #call main function
 main()
 
